@@ -10,7 +10,7 @@ interface FeatureCardProps{
 }
 const FeatureCard = (props: FeatureCardProps) => {
   return (
-    <article className='px-10 py-10 bg-(--white) rounded-[30px]'>
+    <article className='px-10 py-10 bg-(--white) rounded-[30px] shadow-2xl'>
         <div className={`flex items-center justify-center w-[100px] h-[100px] ${props.color} rounded-full mx-auto`}>
             <Image className='absolute' width={125} height={100} src={props.icon} alt={props.icon}/>
         </div>

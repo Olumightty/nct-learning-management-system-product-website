@@ -4,7 +4,7 @@ import NavLink from './NavLink'
 
 const NavBar = () => {
   return (
-    <nav className='bg-(--white) flex items-center justify-between px-20'>
+    <nav className='bg-(--white) flex items-center justify-between px-20 sticky top-0 z-10 shadow-2xl'>
         <div className='w-[242px] h-[144px]'>
             <Image src="/logo.svg" alt="logo" width={242} height={144}/>
         </div>
