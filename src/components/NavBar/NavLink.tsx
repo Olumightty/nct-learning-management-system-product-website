@@ -9,7 +9,7 @@ interface NavLinkProps {
 }
 const NavLink = (props: NavLinkProps) => {
   return (
-    <li className='text-lg font-semibold'><Link href={props.href}>{props.children}</Link></li>
+    <li className='text-[16px] font-semibold'><Link href={props.href}>{props.children}</Link></li>
   )
 }
 
