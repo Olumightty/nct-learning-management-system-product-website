@@ -2,9 +2,12 @@
 import { contactInfo } from '@/lib/constants'
 import React from 'react'
 import Handle from './Handle'
+import Animation from './Animation'
 
 const Contact = () => {
   return (
+    <>
+    <Animation/>
     <section id='contact' className='bg-(--white) px-20 py-10'>
         <div className='bg-(--white) p-10 flex justify-between rounded-[30px] drop'>
             {
@@ -14,6 +17,7 @@ const Contact = () => {
             }
         </div>
     </section>
+    </>
   )
 }
 
