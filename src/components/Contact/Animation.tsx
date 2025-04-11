@@ -6,7 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 const Animation = () => {
     useGSAP(() => {
         const section = document.querySelector('#contact')!
-        const featureSection = document.querySelector('#features')!
+        // const featureSection = document.querySelector('#features')!
         gsap.registerPlugin(ScrollTrigger)
 
         

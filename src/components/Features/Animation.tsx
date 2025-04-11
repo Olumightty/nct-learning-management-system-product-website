@@ -19,7 +19,7 @@ const Animation = () => {
             opacity: 1
         })
 
-        features.forEach((feature, i) =>{
+        features.forEach((feature) =>{
           feature.addEventListener('mouseover', () =>{
             gsap.to(feature, {
               scale: 1.05,

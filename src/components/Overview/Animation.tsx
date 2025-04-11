@@ -27,7 +27,7 @@ const Animation = () => {
 
         
 
-        const hi = gsap.from(section.querySelectorAll('article p, article li'), {
+        gsap.from(section.querySelectorAll('article p, article li'), {
             scrollTrigger: section,
             x: 500,
             stagger: 0.2,
