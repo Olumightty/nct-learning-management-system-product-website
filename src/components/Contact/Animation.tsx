@@ -2,7 +2,6 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import React from 'react'
 
 const Animation = () => {
     useGSAP(() => {

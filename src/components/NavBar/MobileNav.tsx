@@ -7,7 +7,7 @@ import gsap from 'gsap'
 const MobileNav = () => {
     const [open, setOpen] = React.useState(false)
 
-    const {contextSafe} =useGSAP(() => {
+    useGSAP(() => {
         const mobile = document.querySelector('.mobile')!;
         console.log(open)
         if(open){
