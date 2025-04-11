@@ -9,10 +9,10 @@ interface HandleProp{
 const Handle = (props: HandleProp) => {
   return (
     <article className='flex gap-5 items-start'>
-        <Image src={props.icon} alt={props.icon} width={50} height={50}/>
+        <Image className='w-[30px] md:w-[50px]' src={props.icon} alt={props.icon} width={50} height={50}/>
         <div>
-            <h4 className='text-(--black) text-2xl font-bold'>{props.label}</h4>
-            <p className='text-(--black) text-xl w-[220px]'>
+            <h4 className='text-(--black) text-xl md:text-2xl font-bold'>{props.label}</h4>
+            <p className='text-(--black) text-sm sm:text-lg md:text-xl w-[220px]'>
                 {props.value}
             </p>
         </div>

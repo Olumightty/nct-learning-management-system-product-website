@@ -8,8 +8,8 @@ const Hero = () => {
   return (
     <>
     <Animation/>
-    <section id='hero' className='bg-(--neo-blue) custom-background px-20 flex items-center justify-between h-[100vh]'>
-        <article className='w-fit header'>
+    <section id='hero' className='bg-(--neo-blue) custom-background px-20 flex items-start sm:items-center justify-between h-[100vh]'>
+        <article className='w-fit header mt-20 sm:mt-0'>
             <header>
                 <p className='text-(--white) text-2xl font-bold intro'>Introducing...</p>
                 <h1 className='text-(--white) text-5xl font-bold title'>Neo Cloud Learning <br /> Management System</h1>
@@ -22,7 +22,7 @@ const Hero = () => {
                 </button>
             </Link>
         </article>
-        <div className='relative w-[736px] h-[552px] self-end flex flex-col justify-center items-center'>
+        <div className='relative w-[736px] h-[552px] self-end hidden md:flex flex-col justify-center items-center'>
             <Image className='absolute top-0 clock' src="/clock.svg" alt="clock" width={113} height={113}/>
             <Image src="/desk-setup.svg" alt="hero" width={736} height={552}/>
             <Image className='absolute bottom-35 pencil' src="/pencil.svg" alt="pencil" width={113} height={113}/>
