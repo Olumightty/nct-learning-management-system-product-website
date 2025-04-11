@@ -23,9 +23,9 @@ const Hero = () => {
             </Link>
         </article>
         <div className='relative w-[736px] h-[552px] self-end hidden md:flex flex-col justify-center items-center'>
-            <Image className='absolute top-0 clock' src="/clock.svg" alt="clock" width={113} height={113}/>
+            <Image className='absolute top-[130px] lg:top-0 clock w-[50px] lg:w-[113px]' src="/clock.svg" alt="clock" width={113} height={113}/>
             <Image src="/desk-setup.svg" alt="hero" width={736} height={552}/>
-            <Image className='absolute bottom-35 pencil' src="/pencil.svg" alt="pencil" width={113} height={113}/>
+            <Image className='absolute bottom-[200px] lg:bottom-40 xl:bottom-35 pencil w-[50px] lg:w-[113px]' src="/pencil.svg" alt="pencil" width={113} height={113}/>
         </div>
         
     </section>
