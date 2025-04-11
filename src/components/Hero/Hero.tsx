@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
     <Animation/>
-    <section id='hero' className='bg-(--neo-blue) custom-background px-20 flex items-start sm:items-center justify-between h-[100vh]'>
+    <section id='hero' className='bg-(--neo-blue) custom-background px-10 sm:px-20 flex items-start sm:items-center justify-between h-[100vh]'>
         <article className='w-fit header mt-20 sm:mt-0'>
             <header>
                 <p className='text-(--white) text-2xl font-bold intro'>Introducing...</p>

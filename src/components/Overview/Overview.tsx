@@ -6,7 +6,7 @@ const Overview = () => {
   return (
     <>
     <Animation/>
-    <section id='overview' className='bg-(--white) px-20 py-20 flex flex-col md:flex-row gap-5 items-center justify-between' >
+    <section id='overview' className='bg-(--white) px-10 sm:px-20 py-20 flex flex-col md:flex-row gap-5 items-center justify-between' >
         <header className='self-start header'>
             <h2 className='text-4xl md:text-5xl text-(--black) opacity-80 font-bold'>Overview</h2>
             <p className='text-xl md:text-2xl text-(--black) opacity-60 font-semibold mt-2'>Neo Cloud Learning Management System</p>
